@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Roboto;
+  color: #f9faf8;
+}
+
+.header {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+}
+
+.header-logo {
+  font-size: 24px;
+}
+
+.header-links {
+  display: flex;
+  gap: 50px;
+}
+
+.header-links a {
+  text-decoration: none;
+}
+
+.hero {
+  background-color: black;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero h2 {
+  font-size: 48px;
+  font-weight: bolder;
+}
+
+.button {
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-image {
+  background-color: grey;
+  height: 300px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 600px;
+}
+
+.description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.description h2 {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1f2937;
+}
+
+.desc-image {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 5px;
+}
+
+.info-images {
+  height: 200px;
+  width: 180px;
+  border: 3px solid blue;
+  border-radius: 10%;
+}
+
+.subtext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 55px;
+  padding-top: 5px;
+}
+
+.subtext p {
+  font-size: 18px;
+  color: grey;
+  text-align: center;
+}
+
+.quote {
+  background-color: #e5e7eb;
+  height: 400px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.quote h3 {
+  padding-top: 100px;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2937;
+  text-align: justify;
+}
+
+.quote p {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+.footer {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign {
+  height: 40%;
+  width: 60%;
+  background-color: blue;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sign-text h3 {
+  font-size: 28px;
+}
+
+.sign-up {
+  width: 150px;
+  height: 50px;
+  background-color: blue;
+  border: 2px solid;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
